@@ -1933,7 +1933,13 @@ table th, table td{padding:5px 10px;}
 .scrollup {position: fixed;right: 20px;bottom: 0;display: none;width: 34px;height: 34px;opacity: 0.6;cursor: pointer;z-index: 100;border-top-left-radius: 3px;border-top-right-radius: 3px;-webkit-transition: all .5s linear;-moz-transition: all .5s linear;-o-transition: all .5s linear;-ms-transition: all .5s linear;transition: all .5s linear;text-align: center;background-color: var(--primary);}
 .scrollup:hover {opacity: 1;}
 
-header { border-bottom:#eaeaea 1px solid;}
+header { border-bottom:#c5bfbf 1px solid;
+    position: sticky;
+    top: 0;
+    inset-inline: 0;
+    z-index: 9;
+	background-color: var(--white);
+}
 
 .navbar-nav > li {float:left;}
 .navbar-nav > li > a {color: #333;font-weight:500;text-align:center;}
