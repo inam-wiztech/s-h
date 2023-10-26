@@ -665,7 +665,7 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
 .navbar-brand{display:inline-block;padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;font-size:1.25rem;line-height:inherit;white-space:nowrap}
 .navbar-brand:hover,.navbar-brand:focus{text-decoration:none}
 .navbar-nav{display:-ms-flexbox;display:flex;padding-left:0;margin-bottom:0;list-style:none; gap: 20px;    align-items: center;  }
-.navbar-nav .nav-link{ padding: 0; font-size:18px;color:#222;font-weight:500;}
+.navbar-nav .nav-link{ padding: 0; font-size:16px;color:#222;font-weight:500;}
 .live-auction-btn {
     border-radius: 10px;
 	overflow: hidden;
@@ -673,7 +673,7 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
 	display: inline-block;
 }
 .live-auction-btn  .nav-link{
-	font-size: 15px;
+	font-size: 14px;
     font-weight: 600;
 	color: var(--white);
 	text-transform: uppercase;
@@ -3426,6 +3426,9 @@ div.box_out_div div.box ul li label{font-weight:normal; width:87%; float: left; 
 .gap-15{
 	gap: 15px;
 }
+.gap-25{
+	gap: 25px;
+}
 .cont_add {    width: 100%;
     text-align: center;
     display: inline-block;
@@ -3932,7 +3935,7 @@ div.box_out_div span.message {padding: 5px 3px !important;}
 
 @media only screen and ( min-width: 768px ) and ( max-width:1024px ){
 .mobile-center { text-align: center;}
-.navbar-nav{gap: 10px;}
+.navbar-nav{gap: 8px;}
 .navbar-nav .nav-link {font-size:12px;}	
 .live-auction-btn .nav-link{
 	font-size: 8px;
@@ -4844,6 +4847,14 @@ color: var(--white);
     background-position: bottom;
 }
 
-.inner_nav > ul > li:nth-child(1) > a, .inner_nav > ul > li:nth-child(2) > a,.inner_nav > ul > li:nth-child(1) > a, .inner_nav > ul > li:nth-child(3) > a {
+.inner_nav > ul > li:nth-child(1) > a, .inner_nav > ul > li:nth-child(2) > a,.inner_nav > ul > li:nth-child(1) > a {
     border-right: 0;
+}
+
+.company-name-contact {
+    line-height: 26px;
+}
+
+.company-name-contact small {
+    line-height: 28px;
 }
