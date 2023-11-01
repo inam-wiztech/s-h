@@ -468,6 +468,8 @@ body .fot_banner{background-position: center;    width: 95%;
     margin-inline: auto;
     justify-content: center;
     right: 0;}
+	body .navbar-nav{gap: 8px;}
+	/* body .navbar-nav .nav-link {font-size:12px;} */
 }
 .table-responsive{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .table-responsive > .table-bordered{border:0}
