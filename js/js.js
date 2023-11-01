@@ -1371,3 +1371,4 @@ function googleTranslateElementInit() {
 		includedLanguages: 'ar,ru,af,fr,ja'
 	}, 'google_translate_element');
 }
+googleTranslateElementInit();
