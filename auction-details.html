@@ -257,7 +257,6 @@
 	<script src="./js/jquery_front.js"></script>
 	<script src="./js/js.js"></script>
 	<script src="./js/jquery.lazy.min.js"></script>
-	<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 	<script>
 		function tTokyo(){var e,t=new Date,n=new Date,a=n.getTimezoneOffset();t.setTime(n.getTime()+(a/60+parseFloat(9))*36e5),Mon=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][t.getMonth()],Wee=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"][t.getDay()],(Dat=t.getDate())<10&&(Dat="0"+Dat),(hor=t.getHours())<10&&(hor="0"+hor),hor<=12?e="am":(hor-=12,e="pm"),(min=t.getMinutes())<10&&(min="0"+min),(sec=t.getSeconds())<10&&(sec="0"+sec),document.getElementById("timestr").innerHTML=hor+":"+min+" "+e+", "+Wee,setTimeout("tTokyo()",999)}tTokyo();
 	</script>
@@ -266,6 +265,15 @@
 			$('.lazy').lazy();
 		});
 	</script>
+		<script>
+			function googleTranslateElementInit() {
+		new google.translate.TranslateElement({
+			pageLanguage: 'en',
+			includedLanguages: 'ar,ru,af,fr,ja'
+		}, 'google_translate_element');
+	}
+		</script>
+		<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 
 

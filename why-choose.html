@@ -365,7 +365,6 @@
         <script src="./js/js.js"></script>
         <script src="./js/jquery.bxslider.min.js"></script>
         <script src="./js/jquery.lazy.min.js"></script>
-        <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         <script>
             $(document).ready(function () { $(".bxslider").bxSlider({ slideToShow: 1, mode: "fade", auto: !0, autoStart: !0, speed: 3e3, responsive: !0 }) });
         </script>
@@ -377,6 +376,15 @@
                 $('.lazy').lazy();
             });
         </script>
+        	<script>
+                function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'ar,ru,af,fr,ja'
+            }, 'google_translate_element');
+        }
+            </script>
+            <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </body>
 
 
